@@ -1,37 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>About me</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Amrit Mahato - Master of Computer Applications Student">
+    <title>Resume - Amrit Mahato</title>
+    <style>
+        /* Basic styling to make the resume look professional */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .header-text {
+            flex: 1;
+        }
+        .profile-photo {
+            width: 120px;
+            height: 150px;
+            background-color: #ddd; /* Placeholder color */
+            border: 1px solid #ccc;
+            margin-left: 20px;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            margin-bottom: 5px;
+            color: #444;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .date {
+            float: right;
+            font-style: italic;
+            color: #666;
+            font-weight: normal;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: #e1f5fe;
+            padding: 5px 10px;
+            margin: 2px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
 
-    <body style="background-color: peachpuff;">
-        <div class="container m-3 p-0" style="background-color: hsl(240, 100%, 71%);">
-            <div class="row m-3 p-1 border-bottom">
-                <a href="https://www.instagram.com/stabgoblin/" target="_blank" class="col">
-                    <img src="me.jpg" class="img-fluid" alt="me" style="width: 100%; max-height: auto;">
-                </a>
-                <div class="col fs-3 fw-bold">
-                    Amrit Mahato 
-                </div>
-                <div class="col p-1 m-1">
-                    <strong>Email : </strong> <a href="mailto:pushoffgolem@gmail.com" style="color: black; text-decoration: none;">pushoffgolem@gmail.com<a> <br>
-                    <strong>Address : </strong> India, West Bengal<br>
-                    <strong>Social media : </strong><a href="https://youtube.com/watch?v=G8iEMVr7GFg" target="_blank" style="color: black;">Click this text</a>
-                </div>
+    <div class="container">
+        <header>
+            <div class="header-text">
+                <h1>Amrit Mahato</h1> <p><strong>Master of Computer Applications</strong></p> <address class="contact-info">
+                    <p>
+                        <strong>Email:</strong> <a href="mailto:amrit71082@gmail.com">amrit71082@gmail.com</a><br> <strong>Phone:</strong> <a href="tel:+919832925259">(+91) 9832925259</a><br> <strong>DOB:</strong> 24/09/2002<br> <strong>Gender:</strong> Male </p>
+                </address>
             </div>
-            <div class="row m-3 p-1">
-                <div class="">
-                    <p><strong>Educational Qualifications : </strong>B.Sc Computer Science (2021-24) From APC Roy Gov. College Silliguri</p>
-                    <p><strong> Skills : </strong>I know the basics of most of the popular programming languages and I have advanced knowledge in python</p>
-                    <p><strong> Additonal Information : </strong>I am a team player and I am good at brainstorming, additionally I am very versatile and a quick learner.</p>
-                    <p><strong> Projects : </strong>This web page is my first major project I made this with basic bootstrap.</p>
-                    <p><strong> Note : </strong>I'll be updating this site as things come to my mind, meanwhile do contact me I'll be happy to talk with you :)</p>
-                </div>
-            </div>
-        </div>   
-    </body> 
+            <img src="pic.jpg" alt="Amrit Mahato Profile Photo" class="profile-photo"> 
+        </header>
+
+        <main>
+            
+            <section id="education">
+                <h2>Educational Qualification</h2> <table> <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Degree/Examination</th>
+                            <th>Institution/Board</th>
+                            <th>CGPA/%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2027</td>
+                            <td>M.C.A</td>
+                            <td>NIT, Trichy</td>
+                            <td>06.59*</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>B.Sc. (Hons.) CS</td>
+                            <td>APC Roy Gov. College</td>
+                            <td>07.03</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>Class XII</td>
+                            <td>Kendriya Vidyalaya (CBSE)</td>
+                            <td>81.60%</td>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>Class X</td>
+                            <td>Kendriya Vidyalaya (CBSE)</td>
+                            <td>63.80%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="achievements">
+                <h2>Academic Achievements</h2> <ul>
+                    <li>Achieved a <strong>Codeforces</strong> rating of 1007. </li>
+                    <li>Secured <strong>Rank 133</strong> in Geeks for Geeks Weekly - 207. </li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Other Projects</h2> <article>
+                    <h3>Video Threat Detection using AI Captioning <span class="date">May 2025 – Jun 2025</span></h3> <ul>
+                        <li>Developed an AI threat detection system using <strong>OpenCV</strong> and <strong>TensorFlow (YOLOv4)</strong> that analyses video frames and captions. </li>
+                        <li>Achieved <strong>89.2% accuracy</strong> in identifying weapons/aggressive actions with live Telegram alert integration. </li>
+                        <li>Gained expertise in Computer Vision, NLP, and multimodal AI systems. </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Rainbow Snake <span class="date">Dec 2024</span></h3> <ul>
+                        <li>Developed a classic Snake game using <strong>C++</strong> and the <strong>Raylib graphics library</strong>. </li>
+                        <li>Enhanced the base version with features including a sprite-based snake head and a custom colour scheme. </li>
+                        <li>Applied <strong>OOP concepts</strong> to organize game logic modularly. </li>
+                        <li>Gained hands-on experience in 2D graphics programming and game loop architecture. </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills & Interests</h2> <h3>Skills</h3>
+                <ul>
+                    <li><strong>Languages:</strong> C, C++, Python </li>
+                    <li><strong>Software/Tools:</strong> GCC, GitHub, Docker, Virtual Box </li>
+                    <li><strong>OS:</strong> Windows, Linux </li>
+                </ul>
+
+                <h3>Areas of Interest</h3> <ul class="skills-list">
+                    <li>Data Structures and Algorithms</li> <li>Operating System</li> <li>Database Management System</li> <li>Multi-threading</li> </ul>
+            </section>
+
+            <section id="extracurriculars">
+                <h2>Extracurricular Activities</h2> <ul>
+                    <li><strong>Chess:</strong> Represented MCA department in Sportsfete’24. </li>
+                    <li><strong>Marathon:</strong> Completed Marathon in Sportsfete’24. </li>
+                    <li><strong>March Past:</strong> Secured Third Place in Sportsfete’24. </li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Amrit Mahato. Built for Internet Technologies Lab.</p>
+        </footer>
+    </div>
+
+</body>
 </html>
